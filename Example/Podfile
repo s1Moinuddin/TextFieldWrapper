@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'TextFieldWrapper_Example' do
-  pod 'TextFieldWrapper', :path => '../'
+    pod 'TextFieldWrapper', :path => '/Users/user/Documents/MyPods/TextFieldWrapper'
 
-  target 'TextFieldWrapper_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

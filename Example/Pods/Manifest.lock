@@ -2,15 +2,15 @@ PODS:
   - TextFieldWrapper (0.1.0)
 
 DEPENDENCIES:
-  - TextFieldWrapper (from `../`)
+  - TextFieldWrapper (from `/Users/user/Documents/MyPods/TextFieldWrapper`)
 
 EXTERNAL SOURCES:
   TextFieldWrapper:
-    :path: ../
+    :path: /Users/user/Documents/MyPods/TextFieldWrapper
 
 SPEC CHECKSUMS:
-  TextFieldWrapper: e5ce05f151958e9b4140d7d9d6de0120854ba306
+  TextFieldWrapper: 3c6dd0fbc15cada52bc93883d13f582822128742
 
-PODFILE CHECKSUM: 85df8a8bf64c2c2dd522b7fb4b51936f642408e8
+PODFILE CHECKSUM: 50fe8d79034720dfa40cdd7f7a1e3fc1284f750b
 
 COCOAPODS: 1.2.1
