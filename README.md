@@ -11,30 +11,38 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 import TextFieldWrapper
 
-### implement zoom in/out
-yourTextField.zoomScale = 1.4 // some value > 1 for zoomIn effect
+### implement zoom in/out:
+```swift
+yourTextField.zoomScale = 1.4 // some value > 1 for zoomIn effect.
+```
 // In which view you want to add transparent blur effect.
+```swift
 yourTextField.addBlurToView = self.view
 
 yourTextField.addBlurToView.maxCharacter = 15
-
+```
 ### implement character changed event:
+```swift
 yourTextField.characterChangedEvent = { [weak self] (str, num) in
     // your implementation
 }
-
-### shake animation can be accessed in 3 ways
+```
+### shake animation can be accessed in 3 ways:
 1. 
+```swift
 yourTextField.shake()
-
+```
 2. 
+```swift
 yourTextField.shake(borderColor: .red, borderWidth: 2.0)
-
+```
 3. 
+```swift
 yourTextField.shake(borderColor: .red, borderWidth: 4, completion: { 
 [weak self] in
 //your implementation
 })
+```
 
 run the Example project, you will have a clean idea. 
 
