@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'TextFieldWrapper_Example' do
-    pod 'TextFieldWrapper', :path => '/Users/user/Documents/MyPods/TextFieldWrapper'
+    pod 'TextFieldWrapper'
 
 end

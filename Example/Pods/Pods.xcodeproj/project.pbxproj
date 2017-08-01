@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B9E049896D7774AB2FE23A53E15D5F6 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A10F4BBA4D8375321F861D5E306F /* Shakeable.swift */; };
-		1447BFC1A752999D7B20654F3E505B02 /* Zoomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5991C41753AE0E30AC814BF993FA55 /* Zoomable.swift */; };
-		363410D75E2C4BD5B06DD3F7D4255EC7 /* SMHoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D57AC965B8E633BF4D160D2418EB494 /* SMHoshiTextField.swift */; };
-		4E5BC61246B26E66176B733CB1138426 /* Window+VisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A5CAB3FD3B69B71857EE8FBEA212B /* Window+VisibleViewController.swift */; };
+		18D1B390AC9B5358B2D8B4033861BCDB /* Zoomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36366C2255F9BA6321E1C84CD6EAF8B /* Zoomable.swift */; };
+		403C02CCF09B74921CA5C69CE42A1A5D /* Window+VisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA6D3ADF609D2981218D36A8943D331 /* Window+VisibleViewController.swift */; };
+		5D0791B6ADC85ACF034D8C6148D6F3C7 /* String+UltimateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324C979770D6F48D6F0D8D0F2E460E17 /* String+UltimateText.swift */; };
 		701CC2A6A8DACCAA7E8D27612441A1C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		91E4C5E507778BDFCBD3CF9D01859594 /* SMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C0DDAAD884EEBA9EA6875D04CB69 /* SMTextField.swift */; };
+		8EC35C6111A13F95686233DFDD747066 /* TextFieldWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3712DE87090A83CB2F76B15C854621 /* TextFieldWrapper-dummy.m */; };
+		8F2CBB6224DFAF76BD08106F9F1FF732 /* SMHoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23234E54A60EB78031D2A99276BC066 /* SMHoshiTextField.swift */; };
+		91418AB01A1B93DB16AD22E615D17FCF /* ValidateableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A42C1095575003DA1F8A1C100D0854 /* ValidateableText.swift */; };
 		99C89C22692C86365C4A799B59FF65B8 /* Pods-TextFieldWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB52D4590E42172E9967E1AD227AE578 /* Pods-TextFieldWrapper_Example-dummy.m */; };
+		9A2FADABAE37075E8314F21F48F1F4C6 /* View+AnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A62ACEF2D92ACA60A8F4B653239E5D6 /* View+AnchorPoint.swift */; };
+		A2E3DFE45B8C3876D959EC672F747DBA /* SMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8CD630127E628209E4E52B934221E /* SMTextField.swift */; };
 		B226CCBF57A543766ADFF486E87FE602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		B56FDD5AACE1C5123623AAD1757AFCA2 /* Pods-TextFieldWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBE7F1BB3C92A6EB4F76729A0AB8F9C /* Pods-TextFieldWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8878151B5E9FF26CBE0CA069DD1A47 /* SMTextField+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D6633B320BBD07C9BF48BA6F6E266 /* SMTextField+Delegate.swift */; };
-		C444927EF4D1B2C6F70398ADEF825C33 /* ValidateableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF36FDDEB1A416C9317984B17B77417 /* ValidateableText.swift */; };
-		C4FBFA1894B60E29FDF35AF32BCF531D /* TextFieldWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67243D4280303DA56FCBA21705A3BE45 /* TextFieldWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB74DCA3FCD28EB5E9E8536BF44DFF8D /* TextFieldWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1568FEC74CB1A0DCE079069F7E1748 /* TextFieldWrapper-dummy.m */; };
-		CB82B9233ED74D72F8DEEC89A76D1E42 /* View+AnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328ADBCD18C2DDA23BF527D07D825A4 /* View+AnchorPoint.swift */; };
+		C2E284173687A095D57EBD50D7D32531 /* SMTextField+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF822C242F6501900201A865108DB2CC /* SMTextField+Delegate.swift */; };
+		C4FBFA1894B60E29FDF35AF32BCF531D /* TextFieldWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FEC543F285521CCB62E7255AE16CF5 /* TextFieldWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD42714A2FC6A70FE75799FCCBCF7E06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		E9C8BA1673ABF25C598E7D5DA81EBCE8 /* String+UltimateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00D8D0FA9ED40E522583CC8DDA6859 /* String+UltimateText.swift */; };
+		EB9120ACCBA7DB67A5BC642D14FFCBD9 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFABD1F40C134D9104A5F1F302675B /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,36 +36,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D3DBD45BDF77E20758389251901F5F /* TextFieldWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldWrapper.xcconfig; sourceTree = "<group>"; };
 		02EC3E1571E71C6DA72D3E1FB4523735 /* Pods-TextFieldWrapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextFieldWrapper_Example-resources.sh"; sourceTree = "<group>"; };
-		0922A10F4BBA4D8375321F861D5E306F /* Shakeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		0F3712DE87090A83CB2F76B15C854621 /* TextFieldWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldWrapper-dummy.m"; sourceTree = "<group>"; };
 		14FB3DCE3F0657F3BA57D28B4720930B /* Pods-TextFieldWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextFieldWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CF36FDDEB1A416C9317984B17B77417 /* ValidateableText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidateableText.swift; sourceTree = "<group>"; };
 		2F9144B0AA18D161F0E1FE6A8CD448F3 /* Pods-TextFieldWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextFieldWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3328ADBCD18C2DDA23BF527D07D825A4 /* View+AnchorPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "View+AnchorPoint.swift"; sourceTree = "<group>"; };
-		3453C0DDAAD884EEBA9EA6875D04CB69 /* SMTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMTextField.swift; sourceTree = "<group>"; };
-		3E5D6633B320BBD07C9BF48BA6F6E266 /* SMTextField+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SMTextField+Delegate.swift"; sourceTree = "<group>"; };
+		324C979770D6F48D6F0D8D0F2E460E17 /* String+UltimateText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UltimateText.swift"; path = "TextFieldWrapper/Classes/Extentions/String+UltimateText.swift"; sourceTree = "<group>"; };
 		4B3ADC896F7C434A1F656DF0AEDEA2D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FEC543F285521CCB62E7255AE16CF5 /* TextFieldWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldWrapper-umbrella.h"; sourceTree = "<group>"; };
 		61619D01165B39ABF680F8191EE0D555 /* Pods-TextFieldWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextFieldWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		67243D4280303DA56FCBA21705A3BE45 /* TextFieldWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldWrapper-umbrella.h"; sourceTree = "<group>"; };
-		7A5991C41753AE0E30AC814BF993FA55 /* Zoomable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Zoomable.swift; sourceTree = "<group>"; };
-		7D8A5CAB3FD3B69B71857EE8FBEA212B /* Window+VisibleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Window+VisibleViewController.swift"; sourceTree = "<group>"; };
+		71A42C1095575003DA1F8A1C100D0854 /* ValidateableText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidateableText.swift; path = TextFieldWrapper/Classes/Protocols/ValidateableText.swift; sourceTree = "<group>"; };
+		73C7131CB37F07117597D93235EE8383 /* TextFieldWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldWrapper.modulemap; sourceTree = "<group>"; };
+		7FA6D3ADF609D2981218D36A8943D331 /* Window+VisibleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Window+VisibleViewController.swift"; path = "TextFieldWrapper/Classes/Extentions/Window+VisibleViewController.swift"; sourceTree = "<group>"; };
 		81D7F5570C65C4804B37AB36D7F7270F /* Pods_TextFieldWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TextFieldWrapper_Example.framework; path = "Pods-TextFieldWrapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8648AC00F312FBC9DDE3FEC076D7A0D5 /* TextFieldWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldWrapper-prefix.pch"; sourceTree = "<group>"; };
+		8A62ACEF2D92ACA60A8F4B653239E5D6 /* View+AnchorPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+AnchorPoint.swift"; path = "TextFieldWrapper/Classes/Extentions/View+AnchorPoint.swift"; sourceTree = "<group>"; };
+		8AFFABD1F40C134D9104A5F1F302675B /* Shakeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shakeable.swift; path = TextFieldWrapper/Classes/Protocols/Shakeable.swift; sourceTree = "<group>"; };
 		916EBE57C009505DC661BD8A4798E126 /* Pods-TextFieldWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TextFieldWrapper_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D57AC965B8E633BF4D160D2418EB494 /* SMHoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMHoshiTextField.swift; sourceTree = "<group>"; };
 		9D6BDA3976654516C778911FA3B55DDF /* TextFieldWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldWrapper.framework; path = TextFieldWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23234E54A60EB78031D2A99276BC066 /* SMHoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMHoshiTextField.swift; path = TextFieldWrapper/Classes/SMHoshiTextField.swift; sourceTree = "<group>"; };
 		ABBE7F1BB3C92A6EB4F76729A0AB8F9C /* Pods-TextFieldWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextFieldWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9A5995F3A95E8419D2EDA9A73176A86 /* TextFieldWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldWrapper.modulemap; sourceTree = "<group>"; };
+		BF822C242F6501900201A865108DB2CC /* SMTextField+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SMTextField+Delegate.swift"; path = "TextFieldWrapper/Classes/Extentions/SMTextField+Delegate.swift"; sourceTree = "<group>"; };
+		D36366C2255F9BA6321E1C84CD6EAF8B /* Zoomable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zoomable.swift; path = TextFieldWrapper/Classes/Protocols/Zoomable.swift; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA00D8D0FA9ED40E522583CC8DDA6859 /* String+UltimateText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+UltimateText.swift"; sourceTree = "<group>"; };
+		E769379424AFD6E78CB27691CE9982F8 /* TextFieldWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldWrapper.xcconfig; sourceTree = "<group>"; };
+		EBE8CD630127E628209E4E52B934221E /* SMTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMTextField.swift; path = TextFieldWrapper/Classes/SMTextField.swift; sourceTree = "<group>"; };
 		F11719254106532094D03A1BB40CBCFD /* Pods-TextFieldWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextFieldWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F50ADEBD9E1DACD8BC8D6B0B7416670E /* Pods-TextFieldWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextFieldWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F630A25FF3E0B0B43170DD1BE4861E93 /* TextFieldWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldWrapper-prefix.pch"; sourceTree = "<group>"; };
-		FA1568FEC74CB1A0DCE079069F7E1748 /* TextFieldWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldWrapper-dummy.m"; sourceTree = "<group>"; };
 		FB52D4590E42172E9967E1AD227AE578 /* Pods-TextFieldWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextFieldWrapper_Example-dummy.m"; sourceTree = "<group>"; };
-		FC1AF11F559928731CDFD3CB4FDD06AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE830FF2567517A514F2D1FE33EB28E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,18 +89,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181AE8C54637FF794EAE39702038CAD2 /* Support Files */ = {
+		06FB4E82057B39C4A948D79280FF889E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC1AF11F559928731CDFD3CB4FDD06AF /* Info.plist */,
-				B9A5995F3A95E8419D2EDA9A73176A86 /* TextFieldWrapper.modulemap */,
-				02D3DBD45BDF77E20758389251901F5F /* TextFieldWrapper.xcconfig */,
-				FA1568FEC74CB1A0DCE079069F7E1748 /* TextFieldWrapper-dummy.m */,
-				F630A25FF3E0B0B43170DD1BE4861E93 /* TextFieldWrapper-prefix.pch */,
-				67243D4280303DA56FCBA21705A3BE45 /* TextFieldWrapper-umbrella.h */,
+				2CBD14626152E3AF135E491D29A2A678 /* TextFieldWrapper */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TextFieldWrapper";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		2454E94AB1CCDE70102AD2F0E9CB50AE /* Targets Support Files */ = {
@@ -111,16 +105,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2778A7A846EA1B177C17BD08DA521164 /* Extentions */ = {
+		2CBD14626152E3AF135E491D29A2A678 /* TextFieldWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				3E5D6633B320BBD07C9BF48BA6F6E266 /* SMTextField+Delegate.swift */,
-				DA00D8D0FA9ED40E522583CC8DDA6859 /* String+UltimateText.swift */,
-				3328ADBCD18C2DDA23BF527D07D825A4 /* View+AnchorPoint.swift */,
-				7D8A5CAB3FD3B69B71857EE8FBEA212B /* Window+VisibleViewController.swift */,
+				8AFFABD1F40C134D9104A5F1F302675B /* Shakeable.swift */,
+				A23234E54A60EB78031D2A99276BC066 /* SMHoshiTextField.swift */,
+				EBE8CD630127E628209E4E52B934221E /* SMTextField.swift */,
+				BF822C242F6501900201A865108DB2CC /* SMTextField+Delegate.swift */,
+				324C979770D6F48D6F0D8D0F2E460E17 /* String+UltimateText.swift */,
+				71A42C1095575003DA1F8A1C100D0854 /* ValidateableText.swift */,
+				8A62ACEF2D92ACA60A8F4B653239E5D6 /* View+AnchorPoint.swift */,
+				7FA6D3ADF609D2981218D36A8943D331 /* Window+VisibleViewController.swift */,
+				D36366C2255F9BA6321E1C84CD6EAF8B /* Zoomable.swift */,
+				375E09E51B076FB31FE15626DA7C5590 /* Support Files */,
 			);
-			name = Extentions;
-			path = Extentions;
+			name = TextFieldWrapper;
+			path = TextFieldWrapper;
+			sourceTree = "<group>";
+		};
+		375E09E51B076FB31FE15626DA7C5590 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE830FF2567517A514F2D1FE33EB28E /* Info.plist */,
+				73C7131CB37F07117597D93235EE8383 /* TextFieldWrapper.modulemap */,
+				E769379424AFD6E78CB27691CE9982F8 /* TextFieldWrapper.xcconfig */,
+				0F3712DE87090A83CB2F76B15C854621 /* TextFieldWrapper-dummy.m */,
+				8648AC00F312FBC9DDE3FEC076D7A0D5 /* TextFieldWrapper-prefix.pch */,
+				50FEC543F285521CCB62E7255AE16CF5 /* TextFieldWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldWrapper";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -149,34 +163,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56B6C5DC2A60F230FAE60E36F5A5DFD5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C026DC467D60EAA1E1083584C4A10103 /* TextFieldWrapper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				56B6C5DC2A60F230FAE60E36F5A5DFD5 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				06FB4E82057B39C4A948D79280FF889E /* Pods */,
 				46355B4EA59121A5477F4A88E2069DA4 /* Products */,
 				2454E94AB1CCDE70102AD2F0E9CB50AE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		91E38DE781A398071AA7951569015E71 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				0922A10F4BBA4D8375321F861D5E306F /* Shakeable.swift */,
-				1CF36FDDEB1A416C9317984B17B77417 /* ValidateableText.swift */,
-				7A5991C41753AE0E30AC814BF993FA55 /* Zoomable.swift */,
-			);
-			name = Protocols;
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		94A374AA94F7FDE40C6577D9E27B086C /* Pods-TextFieldWrapper_Example */ = {
@@ -195,37 +190,6 @@
 			);
 			name = "Pods-TextFieldWrapper_Example";
 			path = "Target Support Files/Pods-TextFieldWrapper_Example";
-			sourceTree = "<group>";
-		};
-		C026DC467D60EAA1E1083584C4A10103 /* TextFieldWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				181AE8C54637FF794EAE39702038CAD2 /* Support Files */,
-				C803073ABA87C1A55CEA2A5C4F7BF359 /* TextFieldWrapper */,
-			);
-			name = TextFieldWrapper;
-			path = /Users/user/Documents/MyPods/TextFieldWrapper;
-			sourceTree = "<absolute>";
-		};
-		C803073ABA87C1A55CEA2A5C4F7BF359 /* TextFieldWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				F963D1D223E88D833459F8DD10CF0775 /* Classes */,
-			);
-			name = TextFieldWrapper;
-			path = TextFieldWrapper;
-			sourceTree = "<group>";
-		};
-		F963D1D223E88D833459F8DD10CF0775 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9D57AC965B8E633BF4D160D2418EB494 /* SMHoshiTextField.swift */,
-				3453C0DDAAD884EEBA9EA6875D04CB69 /* SMTextField.swift */,
-				2778A7A846EA1B177C17BD08DA521164 /* Extentions */,
-				91E38DE781A398071AA7951569015E71 /* Protocols */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 371F58C462AA22C451B04DC99C8E72EB /* Build configuration list for PBXNativeTarget "TextFieldWrapper" */;
 			buildPhases = (
-				81161066849C7981710C563B07966C6B /* Sources */,
+				DBAF744E4E1AD268CF48CD6633F74324 /* Sources */,
 				43D8D2373A2F4C318042BCFA60F9D4CB /* Frameworks */,
 				DA1280D3C4630DE189458B92F533D093 /* Headers */,
 			);
@@ -321,20 +285,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81161066849C7981710C563B07966C6B /* Sources */ = {
+		DBAF744E4E1AD268CF48CD6633F74324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9E049896D7774AB2FE23A53E15D5F6 /* Shakeable.swift in Sources */,
-				363410D75E2C4BD5B06DD3F7D4255EC7 /* SMHoshiTextField.swift in Sources */,
-				BF8878151B5E9FF26CBE0CA069DD1A47 /* SMTextField+Delegate.swift in Sources */,
-				91E4C5E507778BDFCBD3CF9D01859594 /* SMTextField.swift in Sources */,
-				E9C8BA1673ABF25C598E7D5DA81EBCE8 /* String+UltimateText.swift in Sources */,
-				CB74DCA3FCD28EB5E9E8536BF44DFF8D /* TextFieldWrapper-dummy.m in Sources */,
-				C444927EF4D1B2C6F70398ADEF825C33 /* ValidateableText.swift in Sources */,
-				CB82B9233ED74D72F8DEEC89A76D1E42 /* View+AnchorPoint.swift in Sources */,
-				4E5BC61246B26E66176B733CB1138426 /* Window+VisibleViewController.swift in Sources */,
-				1447BFC1A752999D7B20654F3E505B02 /* Zoomable.swift in Sources */,
+				EB9120ACCBA7DB67A5BC642D14FFCBD9 /* Shakeable.swift in Sources */,
+				8F2CBB6224DFAF76BD08106F9F1FF732 /* SMHoshiTextField.swift in Sources */,
+				C2E284173687A095D57EBD50D7D32531 /* SMTextField+Delegate.swift in Sources */,
+				A2E3DFE45B8C3876D959EC672F747DBA /* SMTextField.swift in Sources */,
+				5D0791B6ADC85ACF034D8C6148D6F3C7 /* String+UltimateText.swift in Sources */,
+				8EC35C6111A13F95686233DFDD747066 /* TextFieldWrapper-dummy.m in Sources */,
+				91418AB01A1B93DB16AD22E615D17FCF /* ValidateableText.swift in Sources */,
+				9A2FADABAE37075E8314F21F48F1F4C6 /* View+AnchorPoint.swift in Sources */,
+				403C02CCF09B74921CA5C69CE42A1A5D /* Window+VisibleViewController.swift in Sources */,
+				18D1B390AC9B5358B2D8B4033861BCDB /* Zoomable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +316,7 @@
 /* Begin XCBuildConfiguration section */
 		2627887BD6BC475C6869F439EFEF7CCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D3DBD45BDF77E20758389251901F5F /* TextFieldWrapper.xcconfig */;
+			baseConfigurationReference = E769379424AFD6E78CB27691CE9982F8 /* TextFieldWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -386,7 +350,7 @@
 		};
 		4ABBC105F8625CCF50BA71323473C70E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D3DBD45BDF77E20758389251901F5F /* TextFieldWrapper.xcconfig */;
+			baseConfigurationReference = E769379424AFD6E78CB27691CE9982F8 /* TextFieldWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
