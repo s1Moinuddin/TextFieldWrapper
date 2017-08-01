@@ -1,0 +1,6 @@
+framework module TextFieldWrapper {
+  umbrella header "TextFieldWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

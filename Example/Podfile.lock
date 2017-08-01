@@ -1,0 +1,16 @@
+PODS:
+  - TextFieldWrapper (0.1.0)
+
+DEPENDENCIES:
+  - TextFieldWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  TextFieldWrapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TextFieldWrapper: e5ce05f151958e9b4140d7d9d6de0120854ba306
+
+PODFILE CHECKSUM: 85df8a8bf64c2c2dd522b7fb4b51936f642408e8
+
+COCOAPODS: 1.2.1

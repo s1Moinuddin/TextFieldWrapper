@@ -1,0 +1,6 @@
+framework module Pods_TextFieldWrapper_Example {
+  umbrella header "Pods-TextFieldWrapper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
