@@ -15,18 +15,27 @@ import TextFieldWrapper
 ```swift
 yourTextField.zoomScale = 1.4 // some value > 1 for zoomIn effect.
 ```
-// In which view you want to add transparent blur effect.
 ```swift
-yourTextField.addBlurToView = self.view
-
-yourTextField.addBlurToView.maxCharacter = 15
+yourTextField.addBlurToView = self.view // In which view you want to add transparent blur effect.
 ```
+
 ### implement character changed event:
 ```swift
+yourTextField.maxCharacter = 15
 yourTextField.characterChangedEvent = { [weak self] (str, num) in
     // your implementation
 }
 ```
+### Prevent Trimming and check validation
+```swift
+yourTextField.maxCharacter = 15
+yourTextField.shouldTrim = false
+yourTextField.characterChangedEvent = { [weak self] (str, num) in
+// your implementation
+}
+let flag = yourTextField.isValid
+```
+
 ### shake animation can be accessed in 3 ways:
 1. 
 ```swift
@@ -50,6 +59,7 @@ run the Example project, you will have a clean idea.
 ## Requirements
     iOS 9
     Swift 3
+    Xcode 8
 
 ## Installation
 
