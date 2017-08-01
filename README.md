@@ -5,11 +5,26 @@
 [![License](https://img.shields.io/cocoapods/l/TextFieldWrapper.svg?style=flat)](http://cocoapods.org/pods/TextFieldWrapper)
 [![Platform](https://img.shields.io/cocoapods/p/TextFieldWrapper.svg?style=flat)](http://cocoapods.org/pods/TextFieldWrapper)
 
+## What you can do?
+    - change font and color of placeholder
+    - limit textField input
+    - shake animation
+    - zoom in/out focus animation 
+    - character range validation
+    - Hoshi Effect with above feature
+    - closure callback of character change in textField
+    - closure callback of textFieldDidBeginEditing
+    - closure callback of textFieldDidEndEditing
+    - all other default features of UITextField!!!
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
 import TextFieldWrapper
+```
 
 ### implement zoom in/out:
 ```swift
