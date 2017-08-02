@@ -39,26 +39,24 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciG-1A-yqM">
-                                <rect key="frame" x="126.5" y="304" width="121" height="40"/>
+                                <rect key="frame" x="74.5" y="304" width="225" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2Xc-Bv-Ybz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Shake TextField">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <state key="normal" title="Shake TextField"/>
                                 <connections>
                                     <action selector="shakeBtnAction:" destination="ua1-40-AS3" eventType="touchUpInside" id="iK3-ro-2Qq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameFld No. of characters = 0/15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvU-Ec-tDz">
                                 <rect key="frame" x="20" y="184" width="335" height="40"/>
-                                <color key="backgroundColor" red="0.1842519343" green="0.9947686791" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.10974005609750748" green="0.78641587495803833" blue="0.94977158308029175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="9ZY-gc-3Ty"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" red="0.97946113349999997" green="0.17644855379999999" blue="0.031439546499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kan-Dk-jDK">
@@ -66,14 +64,11 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTs-2M-wbG">
                                         <rect key="frame" x="235" y="10" width="100" height="80"/>
-                                        <color key="backgroundColor" red="0.086437322199344635" green="0.58796370029449463" blue="0.65996980667114258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="cvs-wk-nrv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Dummy">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                        <state key="normal" title="Dummy"/>
                                         <connections>
                                             <action selector="dummyAction:" destination="ua1-40-AS3" eventType="touchUpInside" id="1o7-ZI-PqB"/>
                                         </connections>
@@ -125,11 +120,8 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy0-8d-yMY">
                                         <rect key="frame" x="172.5" y="0.0" width="162.5" height="40"/>
-                                        <color key="backgroundColor" red="0.055301479995250702" green="0.80608302354812622" blue="0.96951919794082642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Go Next ">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                        <state key="normal" title="Go Next "/>
                                         <connections>
                                             <action selector="goNextAction:" destination="ua1-40-AS3" eventType="touchUpInside" id="mfE-mr-Au1"/>
                                         </connections>
@@ -173,6 +165,7 @@
                         <constraints>
                             <constraint firstItem="bvU-Ec-tDz" firstAttribute="top" secondItem="kan-Dk-jDK" secondAttribute="bottom" constant="10" id="3QM-Tl-mJW"/>
                             <constraint firstItem="kan-Dk-jDK" firstAttribute="top" secondItem="UNI-dy-xl9" secondAttribute="bottom" constant="10" id="4An-5P-qqY"/>
+                            <constraint firstItem="ciG-1A-yqM" firstAttribute="width" secondItem="KaU-Ph-o19" secondAttribute="width" multiplier="0.6" id="7mo-or-aeZ"/>
                             <constraint firstAttribute="trailing" secondItem="Ggw-0B-STF" secondAttribute="trailing" constant="10" id="9Ql-ac-ZWK"/>
                             <constraint firstAttribute="trailing" secondItem="G79-8H-Yf7" secondAttribute="trailing" constant="20" id="GDv-k5-hQh"/>
                             <constraint firstItem="Ggw-0B-STF" firstAttribute="leading" secondItem="KaU-Ph-o19" secondAttribute="leading" constant="10" id="HDU-rY-cZ0"/>
@@ -194,8 +187,11 @@
                     <connections>
                         <outlet property="countLabel" destination="bvU-Ec-tDz" id="lqW-Pd-Gyy"/>
                         <outlet property="customTxtFld" destination="2aq-xC-Jhm" id="H9j-7m-YWg"/>
+                        <outlet property="dummyBttn" destination="JTs-2M-wbG" id="mk8-re-5KX"/>
+                        <outlet property="nextBttn" destination="oy0-8d-yMY" id="7ea-zG-8FC"/>
                         <outlet property="phoneNumLabel" destination="W18-N9-a6c" id="kwa-Ow-G2r"/>
                         <outlet property="phoneNumTxtFld" destination="WsD-c7-7MV" id="reB-nY-dgr"/>
+                        <outlet property="shakeBttn" destination="ciG-1A-yqM" id="Syj-LK-8hg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JT5-yE-IQc" sceneMemberID="firstResponder"/>

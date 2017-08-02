@@ -17,6 +17,15 @@
     - closure callback of textFieldDidEndEditing
     - all other default features of UITextField!!!
 
+## Zoom animation
+
+### Clumsy view hierarchy
+<img src="/Screenshots/TextFieldWrapper.gif" />
+
+### Zoom in TableViewCell
+<img src="/Screenshots/TextFiledWrapperP2.gif" />
+
+### The Example app is cluttered to show how it performs in different/critical view hierarchy and situations. For better experience run the Example app. 
 
 ## Example
 
@@ -78,12 +87,15 @@ run the Example project, you will have a clean idea.
 
 ## Installation
 
+### Pod
 TextFieldWrapper is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "TextFieldWrapper"
 ```
+### Manual
+Just drag and drop the TextFieldWrapper folder to your project.
 
 ## Author
 

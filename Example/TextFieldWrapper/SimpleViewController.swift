@@ -11,14 +11,25 @@ import TextFieldWrapper
 
 class SimpleViewController: UIViewController {
     
-    @IBOutlet weak var countLabel: UILabel!
-    @IBOutlet weak var customTxtFld: SMTextField!
-    @IBOutlet weak var phoneNumTxtFld: SMHoshiTextField!
-    @IBOutlet weak var phoneNumLabel: UILabel!
+    //MARK:- Private Outlets
+    @IBOutlet weak private var countLabel: UILabel!
+    @IBOutlet weak private var customTxtFld: SMTextField!
+    @IBOutlet weak private var phoneNumTxtFld: SMHoshiTextField!
+    @IBOutlet weak private var phoneNumLabel: UILabel!
+    @IBOutlet weak private var shakeBttn: UIButton!
+    @IBOutlet weak private var nextBttn: UIButton!
+    @IBOutlet weak private var dummyBttn: UIButton!
     
+    //MARK:- Private Constant
+    private let cornerRadius:CGFloat = 4
+    private let borderWidth:CGFloat = 2
+    private let borderColor:CGColor = UIColor.black.cgColor
     
+    //MARK:- View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupButtons()
         
         customTxtFld.characterChangedEvent = { [weak self] (str, num) in
             self?.countLabel.text = "NameFld No. of characters = \(num)/15"
@@ -41,16 +52,28 @@ class SimpleViewController: UIViewController {
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-    }
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-
-    @IBAction func shakeBtnAction(_ sender: UIButton) {
+    
+    //MARK:- Private Methods
+    private func setupButtons() {
+        shakeBttn.layer.cornerRadius = cornerRadius
+        shakeBttn.layer.borderWidth = borderWidth
+        shakeBttn.layer.borderColor = borderColor
+        
+        nextBttn.layer.cornerRadius = cornerRadius
+        nextBttn.layer.borderWidth = borderWidth
+        nextBttn.layer.borderColor = borderColor
+        
+        dummyBttn.layer.cornerRadius = cornerRadius
+        dummyBttn.layer.borderWidth = borderWidth
+        dummyBttn.layer.borderColor = borderColor
+    }
+    
+    
+    //MARK:- Button Action
+    @IBAction private func shakeBtnAction(_ sender: UIButton) {
         if sender.isSelected {
             
             phoneNumTxtFld.shake()
@@ -60,6 +83,7 @@ class SimpleViewController: UIViewController {
                 self?.customTxtFld.placeholderColor = .blue
             })
         } else {
+            
             
             phoneNumTxtFld.shake(borderColor: .red, borderWidth: 2.0)
             
@@ -73,12 +97,12 @@ class SimpleViewController: UIViewController {
         print("is Text withing limit = \(customTxtFld.isValid)")
     }
     
-    @IBAction func dummyAction(_ sender: UIButton) {
+    @IBAction private func dummyAction(_ sender: UIButton) {
         self.view.endEditing(true)
         phoneNumLabel.text = phoneNumTxtFld.isValid ? phoneNumLabel.text : "Not Valid"
     }
     
-    @IBAction func goNextAction(_ sender: UIButton) {
+    @IBAction private func goNextAction(_ sender: UIButton) {
         self.view.endEditing(true)
         
         let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
